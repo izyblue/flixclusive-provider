@@ -47,17 +47,17 @@ subprojects {
          * own github profile link
          * */
         author(
-            name = "flixclusiveorg",
-            image = "http://github.com/flixclusiveorg.png",
-            socialLink = "http://github.com/flixclusiveorg",
+            name = "izyblue",
+            image = "https://avatars.githubusercontent.com/u/110403491?v=4",
+            socialLink = "https://github.com/izyblue",
         )
         // author( ... )
 
-        setRepository("https://github.com/flixclusiveorg/providers-template")
+        setRepository("https://github.com/izyblue/flixclusive-provider")
     }
 
     android {
-        namespace = "com.github.flixclusiveorg.providersTemplate.${name.replaceFirstChar { it.lowercase() }}"
+        namespace = "com.github.izyblue.flixclusive-provider.${name.replaceFirstChar { it.lowercase() }}"
     }
 
     dependencies {
