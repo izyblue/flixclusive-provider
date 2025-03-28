@@ -53,11 +53,12 @@ subprojects {
         )
         // author( ... )
 
-        setRepository("https://github.com/izyblue/flixclusive-provider/providers")
+        setRepository("https://github.com/izyblue/flixclusive-provider")
     }
 
     android {
-        namespace = "com.github.izyblue.flixclusive-provider.${name.replaceFirstChar { it.lowercase() }}"
+        // namespace = "com.flixclusive.providers.${name.replaceFirstChar { it.lowercase() }}"
+        namespace = "com.flixclusive.providers.${name.replaceFirstChar { it.lowercase() }}"
     }
 
     dependencies {
