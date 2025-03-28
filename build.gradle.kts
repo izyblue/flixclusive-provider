@@ -58,7 +58,7 @@ subprojects {
 
     android {
         // namespace = "com.flixclusive.providers.${name.replaceFirstChar { it.lowercase() }}"
-        namespace = "com.flixclusive.providers.${name.replaceFirstChar { it.lowercase() }}"
+        namespace = "com.flixclusive.provider.${name.replaceFirstChar { it.lowercase() }}"
     }
 
     dependencies {
