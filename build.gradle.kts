@@ -53,7 +53,7 @@ subprojects {
         )
         // author( ... )
 
-        setRepository("https://github.com/izyblue/flixclusive-provider")
+        setRepository("https://github.com/izyblue/flixclusive-provider/providers")
     }
 
     android {
@@ -66,7 +66,7 @@ subprojects {
         val testImplementation by configurations
         val coreLibraryDesugaring by configurations
 
-        coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+        coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
 
         val coreStubsModule = "com.github.flixclusiveorg.core-stubs:provider"
         val coreStubsVersion = "1.2.5"

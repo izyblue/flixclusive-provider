@@ -12,11 +12,8 @@ import com.flixclusive.provider.ProviderApi
 import com.flixclusive.provider.filter.FilterList
 import okhttp3.OkHttpClient
 
-/**
- * An inheritance class for a [ProviderApi]. This will serve as the [Provider] api instance.
- *
- */
-class BasicDummyProviderApi(
+
+class BlueLinksProviderApi(
     client: OkHttpClient,
     provider: Provider
 ) : ProviderApi(client, provider) {

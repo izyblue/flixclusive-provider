@@ -4,15 +4,10 @@ import kotlinx.coroutines.test.runTest
 import okhttp3.OkHttpClient
 import org.junit.Test
 
-/**
- * ## Template unit test for your providers.
- *
- * Follow the Arrange-Act-Assert pattern for each test method.
- *
- */
+
 class BasicDummyProviderApiUnitTest {
 
-    private val provider = BasicDummyProvider()
+    private val provider = BlueLinksProvider()
 
     /**
      * Tests the behavior of `getFilmInfo` method for a specific film ID.
@@ -25,11 +20,12 @@ class BasicDummyProviderApiUnitTest {
      *
      * @see runTest
      */
+
     @Test
     fun `test getFilmInfo for some_film_id returns non-empty film title`()
         = runTest {
         // Arrange
-        val api = BasicDummyProviderApi(OkHttpClient(), provider)
+        val api = BlueLinksProviderApi(OkHttpClient(), provider)
 
         // Act
         val result = api.getMetadata(film = api.testFilm)

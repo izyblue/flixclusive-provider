@@ -7,8 +7,9 @@ rootProject.name = "provider-template"
 * to the includes below.
 * */
 include(
-    "BasicDummyProvider",
-    "BasicDummyWebViewProvider",
+//    "BasicDummyProvider",
+//    "BasicDummyWebViewProvider",
+    "BlueLinks"
     // "MySecondProvider",
 )
 
