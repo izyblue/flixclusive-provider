@@ -1,6 +1,6 @@
 [
     {
-        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
+        "repositoryUrl": "https://github.com/izyblue/flixclusive-provider",
         "adult": false,
         "providerType": {
             "type": "Movies, TV Shows, etc."
@@ -11,42 +11,17 @@
         },
         "authors": [
             {
-                "image": "http://github.com/flixclusiveorg.png",
-                "name": "flixclusiveorg",
-                "socialLink": "http://github.com/flixclusiveorg"
+                "image": "https://avatars.githubusercontent.com/u/110403491?v=4",
+                "name": "izyblue",
+                "socialLink": "https://github.com/izyblue"
             }
         ],
-        "id": "14a5037ac9553dd",
+        "id": "1e0802cd6781fe0",
         "versionCode": 10000,
-        "description": "A dummy provider that does nothing.",
-        "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
+        "description": "Izyblue's main provider.",
+        "buildUrl": "https://raw.githubusercontent.com/izyblue/flixclusive-provider/builds/BlueLinks.flx",
         "changelog": "# Header\n## Secondary header\n---\n\nList\n- Item 1\n- Item 2\n- Item 3",
         "versionName": "1.0.0",
-        "name": "Test Provider"
-    },
-    {
-        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
-        "adult": false,
-        "providerType": {
-            "type": "Movies, TV Shows, etc."
-        },
-        "status": "Working",
-        "language": {
-            "languageCode": "Multiple"
-        },
-        "authors": [
-            {
-                "image": "http://github.com/flixclusiveorg.png",
-                "name": "flixclusiveorg",
-                "socialLink": "http://github.com/flixclusiveorg"
-            }
-        ],
-        "id": "407e8638eb9d50c",
-        "versionCode": 10000,
-        "description": "A dummy provider that does nothing.",
-        "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
-        "changelog": "# Header\n## Secondary header\n---\n\nList\n- Item 1\n- Item 2\n- Item 3",
-        "versionName": "1.0.0",
-        "name": "WebView Test Provider"
+        "name": "BlueLinks"
     }
 ]
