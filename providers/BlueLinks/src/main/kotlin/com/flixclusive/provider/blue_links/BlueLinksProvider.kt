@@ -13,7 +13,7 @@ class BlueLinksProvider : Provider() {
     @Composable
     override fun SettingsScreen() {
         // Create a custom component for code readability
-        ExampleSettingsScreen(resources = resources)
+        SettingsScreen(resources = resources)
     }
 
     override fun getApi(

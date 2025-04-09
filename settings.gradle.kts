@@ -9,8 +9,8 @@ rootProject.name = "flixclusive-provider"
 include(
 //    "BasicDummyProvider",
 //    "BasicDummyWebViewProvider",
-    "BlueLinks"
-    // "MySecondProvider",
+//    "BlueLinks",
+    "TestProvider"
 )
 
 

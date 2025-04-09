@@ -1,4 +1,4 @@
-package com.flixclusive.provider.blue_links
+package com.flixclusive.provider.testProvider
 
 import android.content.res.Resources
 import androidx.compose.foundation.layout.Box
@@ -9,7 +9,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun SettingsScreen(
+fun ExampleSettingsScreen(
     resources: Resources? = null
 ) {
     Box(

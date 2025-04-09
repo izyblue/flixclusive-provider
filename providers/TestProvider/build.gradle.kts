@@ -33,8 +33,8 @@ flxProvider {
     id = "prov-templ-dummy"
 
     adult = false
-    providerName = "BlueLinks" // <-- You can customize the name by uncommenting this one.
-    description = "Izyblue's main provider."
+    providerName = "Test Provider" // <-- You can customize the name by uncommenting this one.
+    description = "A dummy provider that does nothing."
 
     versionMajor = 1
     versionMinor = 0
@@ -45,11 +45,14 @@ flxProvider {
      * Changelog of your provider updates. This supports markdown
      * */
     changelog = """
-    # Practice Build
-    ## First Deploy Testing
+    # Header
+    ## Secondary header
     ---
     
-    This is a testing. No expectations.
+    List
+    - Item 1
+    - Item 2
+    - Item 3
     """.trimIndent() // OPTIONAL
 
     /**

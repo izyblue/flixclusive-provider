@@ -1,4 +1,4 @@
-package com.flixclusive.provider.basic_dummy_provider
+package com.flixclusive.provider.testProvider
 
 import kotlinx.coroutines.test.runTest
 import okhttp3.OkHttpClient
@@ -12,7 +12,7 @@ import org.junit.Test
  */
 class BasicDummyProviderApiUnitTest {
 
-    private val provider = BasicDummyProvider()
+    private val provider = TestProvider()
 
     /**
      * Tests the behavior of `getFilmInfo` method for a specific film ID.
@@ -29,7 +29,7 @@ class BasicDummyProviderApiUnitTest {
     fun `test getFilmInfo for some_film_id returns non-empty film title`()
         = runTest {
         // Arrange
-        val api = BasicDummyProviderApi(OkHttpClient(), provider)
+        val api = TestProviderApi(OkHttpClient(), provider)
 
         // Act
         val result = api.getMetadata(film = api.testFilm)
