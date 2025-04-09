@@ -18,10 +18,10 @@
         ],
         "id": "1e0802cd6781fe0",
         "versionCode": 10000,
-        "description": "Izyblue's main provider.",
-        "buildUrl": "https://raw.githubusercontent.com/izyblue/flixclusive-provider/builds/BlueLinks.flx",
+        "description": "A dummy provider that does nothing.",
+        "buildUrl": "https://raw.githubusercontent.com/izyblue/flixclusive-provider/builds/TestProvider.flx",
         "changelog": "# Header\n## Secondary header\n---\n\nList\n- Item 1\n- Item 2\n- Item 3",
         "versionName": "1.0.0",
-        "name": "BlueLinks"
+        "name": "Test Provider"
     }
 ]
